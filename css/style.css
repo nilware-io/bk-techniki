@@ -30,9 +30,9 @@ html, body {
 }
 body {
 	background: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Impact, sans-serif;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 300;
 	overflow-x: hidden;
 }
 /*---------------------------------------
@@ -40,7 +40,7 @@ body {
 -----------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h1, h2, h4 {
 	font-weight: 500;
@@ -59,7 +59,7 @@ h3 {
 	line-height: 32px;
 }
 h4 {
-	color: #454545;
+	color: #000000;
 	font-size: 18px;
 	line-height: 26px;
 }
@@ -101,7 +101,7 @@ img {
 	box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 .section-btn:focus, .section-btn:hover {
-	background: #ffcc33;
+	background: #33b4ff;
 	color: #fff;
 }
 /*---------------------------------------
@@ -116,11 +116,11 @@ a {
 	-webkit-transition: ease-in-out 0.3s;
 	-moz-transition: ease-in-out 0.3s;
 	-ms-transition: ease-in-out 0.3s;
-	color: #ffcc33;
+	color: #004879;
 	text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-	color: #ffcc33;
+	color: #131211;
 	outline: none;
 }
 * {
@@ -162,7 +162,7 @@ a:hover, a:active, a:focus {
 	position: relative;
 	font-size: 48px;
 	margin-bottom:20px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 42px;
 	margin-top:0;
 }
@@ -205,7 +205,7 @@ a:hover, a:active, a:focus {
 	text-align: center;
 }
 
-.overlaywhite{background:rgba(255,204,51,0.2);
+.overlaywhite{background:rgba(58, 207, 233, 0.2);
 -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -231,7 +231,7 @@ a:hover, a:active, a:focus {
     top: 0;}
 
 
-.postimg{background:#fff; border:8px solid #ffcc33;}
+.postimg{background:#fff; border:8px solid #3352ff;}
 .postimg img{display:block;}
 
 /*---------------------------------------
@@ -617,22 +617,23 @@ a:hover, a:active, a:focus {
 	width: 100%;
 }
 .is-sticky .custom-navbar {
-	background: #fff;
-	-moz-box-shadow: 0 10px 33px rgba(0,0,0,.1);
+	background: rgb(255, 255, 255);
+	-moz-box-shadow: 0 20px 33px rgba(0,0,0,.1);
 	-webkit-box-shadow: 0 10px 33px rgba(0,0,0,.1);
 	box-shadow: 0 10px 33px rgba(0,0,0,.1);
 }
 .custom-navbar .navbar-brand {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
-	font-size: 32px;
+	font-size: 37px;
 	line-height: 35px;
 }
 .custom-navbar .navbar-brand .dark-logo{display:none;}
 .custom-navbar .nav li a {
-	font-size: 14px;
+	font-size: 20px;
+	padding-top: 60px;
 	font-weight: bold;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	line-height: 40px;
 	letter-spacing: 0.3px;
 	padding-right: 20px;
@@ -716,9 +717,11 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-	background: url(../images/home-bg.jpg) no-repeat top;
+	background: url(../images/architectureBackground1.jpeg) no-repeat top;
 	background-size: cover;
 	background-position: center center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: normal;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -976,7 +979,7 @@ background-color:#ffcc33;
 **********************************************/
 .tp-banner-container {
 	position: relative;
-z-index:;
+	z-index:auto; 
 	padding: 0;
 	width: 100%;
 }
@@ -1037,7 +1040,7 @@ z-index:;
 	margin: 5px 0 !important;
 	padding: 0 0 10px !important;
 	padding-bottom: 5px !important;
-	color: #444;
+	color: rgb(17, 17, 17);
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 57px;

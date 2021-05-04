@@ -206,6 +206,7 @@ a:hover, a:active, a:focus {
 }
 
 .overlaywhite{background:rgba(58, 207, 233, 0.2);
+	
 -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -600,6 +601,7 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
      Navigation section              
 -----------------------------------------*/
+
 .sticky-wrapper {
 	width: 100%;
 	position: absolute;
@@ -607,6 +609,73 @@ a:hover, a:active, a:focus {
 	left: 0;
 	z-index: 1000
 }
+.nav {
+
+	height: 132px;
+  
+	background: #8caeb4;
+
+	background: url(../images/menuBackground.jpeg)repeat top;
+  
+	box-shadow: inset 0 2px rgba(255, 255, 255, 0.06);
+
+	text-decoration-style: dashed;
+  
+  }
+  
+.nav a {
+  
+	-webkit-transition: 0.1s ease-out;
+  
+	-moz-transition: 0.1s ease-out;
+  
+	-o-transition: 0.1s ease-out;
+  
+	transition: 0.1s ease-out;
+  
+	-webkit-transition-property: background-color, line-height;
+  
+	-moz-transition-property: background-color, line-height;
+  
+	-o-transition-property: background-color, line-height;
+  
+	transition-property: background-color, line-height;
+
+	display: block;
+
+  	padding: 0 20px;
+
+  	line-height: 36px;
+
+  	color: #ddd;
+
+  	text-decoration: none;
+
+  	text-shadow: 0 1px #141313;
+
+  	cursor: pointer;
+  
+  }
+
+.nav a:hover {
+
+	background: #99d6e2;
+  
+	background: rgba(255, 255, 255, 0.05);
+  
+  }
+
+.nav ul {
+
+	float: left;
+  
+  }
+  
+.nav li {
+  
+	float: left;
+  
+  }
 .navbar {
 	border-radius: 1;
 	

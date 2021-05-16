@@ -40,7 +40,7 @@ body {
 -----------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 h1, h2, h4 {
 	font-weight: 500;
@@ -969,14 +969,11 @@ background-color:#ffcc33;
 	margin-bottom: 15px;
 	color: #fff;
 }
-.counterbox {
-}
 /*********************************************
 		Revolution slider options
 **********************************************/
 .tp-banner-container {
 	position: relative;
-z-index:;
 	padding: 0;
 	width: 100%;
 }
@@ -1012,10 +1009,6 @@ z-index:;
 .tp-arr-allwrapper:hover .tp-arr-iwrapper {
 	color: #fff;
 }
-.tp-leftarrow .tp-arr-allwrapper {
-}
-.tp-rightarrow .tp-arr-allwrapper {
-}
 .tp-arr-iwrapper {
 	color: #fff;
 	text-align: center;
@@ -1023,16 +1016,14 @@ z-index:;
 	font-family: 'FontAwesome';
 	line-height: 60px;
 }
-.tp-leftarrow .tp-arr-iwrapper {
-}
+
 .tp-leftarrow .tp-arr-iwrapper:before {
 	content: "\f104";
 }
 .tp-rightarrow .tp-arr-iwrapper:before {
 	content: "\f105";
 }
-.tp-rightarrow .tp-arr-iwrapper {
-}
+
 .slide-h1 {
 	margin: 5px 0 !important;
 	padding: 0 0 10px !important;
@@ -1422,6 +1413,7 @@ a.wit-btn {
 .flipper .front .imgbox {
 	display: block;
 	color: #f8f8f8;
+	font-size: 300px;
 }
 .flipper .back-title {
 	font-weight: bold;

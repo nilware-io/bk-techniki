@@ -27,6 +27,7 @@ Table Of Index
 
 html, body {
 	min-height: 100%;
+	background-image :url(./images/bkBackground.jpeg);
 }
 body {
 	background: #fff;
@@ -55,6 +56,7 @@ h2 {
 	margin: 0px;
 }
 h3 {
+	font-family: 'Courier New', Courier, monospace;
 	font-size: 16px;
 	line-height: 32px;
 }
@@ -613,7 +615,8 @@ a:hover, a:active, a:focus {
 .custom-navbar {
 	border: none;
 	margin-bottom: 0;
-	padding: 6px 0;
+	padding: 30px 10px 10px;
+	padding-right: 150px;
 	width: 100%;
 }
 .is-sticky .custom-navbar {
@@ -630,13 +633,15 @@ a:hover, a:active, a:focus {
 }
 .custom-navbar .navbar-brand .dark-logo{display:none;}
 .custom-navbar .nav li a {
-	font-size: 14px;
-	font-weight: bold;
-	color: #fff;
+	font-size: 18px;
+	font-weight: bold; 
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px #000000;
 	line-height: 40px;
-	letter-spacing: 0.3px;
-	padding-right: 20px;
-	padding-left: 20px;
+	letter-spacing: 0.2px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 22px;
 	-webkit-transition: all ease-in-out 0.4s;
 	transition: all ease-in-out 0.4s;
 }
@@ -716,7 +721,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-	background: url(../images/home-bg.jpg) no-repeat top;
+	background: url(../images/bkBackground.jpeg) no-repeat top;
 	background-size: cover;
 	background-position: center center;
 	display: -webkit-box;
@@ -733,7 +738,7 @@ a:hover, a:active, a:focus {
 	text-align: center;
 }
 #home6 {
-	background: url(../images/home-bg2.jpg) no-repeat top;
+	background: url(../images/bkLogo1.png) no-repeat top;
 	background-size: cover;
 	background-position: center center;
 	display: -webkit-box;
@@ -1285,7 +1290,7 @@ a.wit-btn {
            == About css ==
 *************************************************/
 .aboutwrap {
-	padding: 80px 0 95px 0;
+	padding: 20px 40px 95px 0;
 }
 .aboutwrap .section-title {
 	text-align: left;
@@ -1304,8 +1309,9 @@ a.wit-btn {
 	width: 100%;
 	height: 100%;
 	content: '';
-	top: 35px;
-	right: -35px;
+	top: 10px;
+	bottom: 20px;
+	right: -10px;
 	position: absolute;
 }
 
@@ -1991,9 +1997,13 @@ a.wit-btn {
 -----------------------------------------*/
 #contact {
 	position: relative;
+	color: rgb(255, 255, 255);
 	background:url(../images/contact-bg.jpg) no-repeat;
 	background-size:cover;
 	padding:60px 0;
+}
+.contact-details{
+	color: rgb(255, 255, 255);
 }
 .contact-form {
 	z-index: 10;

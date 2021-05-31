@@ -138,6 +138,7 @@ a:hover, a:active, a:focus {
 	padding:60px 0;
 	overflow:hidden;
 }
+
 .greybg {
     background: #f8f8f8;
 }
@@ -612,10 +613,15 @@ a:hover, a:active, a:focus {
 .navbar {
 	border-radius: 0;
 }
+.navbar-brand{
+	outline-color: white;
+	outline-width: 2px;
+	outline-style: groove;
+}
 .custom-navbar {
 	border: none;
-	margin-bottom: 0;
-	padding: 30px 10px 10px;
+	margin-bottom: 5px;
+	padding: 40px 5px 5px 5px;
 	padding-right: 150px;
 	width: 100%;
 }
@@ -633,13 +639,13 @@ a:hover, a:active, a:focus {
 }
 .custom-navbar .navbar-brand .dark-logo{display:none;}
 .custom-navbar .nav li a {
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold; 
 	color: rgb(255, 255, 255);
 	text-shadow: 1px 1px #000000;
 	line-height: 40px;
 	letter-spacing: 0.2px;
-	padding-right: 10px;
+	padding-right: 5px;
 	padding-left: 10px;
 	padding-top: 22px;
 	-webkit-transition: all ease-in-out 0.4s;
@@ -2302,7 +2308,7 @@ h1 {
 	display: inline-block;
 }
 .custom-navbar {
-	border-bottom: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.397);
 	padding-bottom: 30px;
 }
 .is-sticky .custom-navbar {

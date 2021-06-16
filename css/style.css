@@ -615,8 +615,8 @@ a:hover, a:active, a:focus {
 }
 .navbar-brand{
 	outline-color: white;
-	outline-width: 2px;
-	outline-style: groove;
+	outline-width: 3px;
+	outline-style: solid;
 }
 .custom-navbar {
 	border: none;
@@ -2003,26 +2003,22 @@ a.wit-btn {
 -----------------------------------------*/
 #contact {
 	position: relative;
-	text-align: center;
 	color: rgb(255, 255, 255);
-	padding:60px 0;
+	display: block;
 }
-.container {
-	text-align: center;
-}
-.contact-details{
-	color: rgb(255, 255, 255);
-	text-align: center;
-	padding-left: 50%;
-	padding-right: 50%
-}
+
 .contact-form {
+	color: rgb(255, 255, 255);
 	z-index: 10;
-	position: relative;
 	text-align: center;
-	padding-right: 30;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
-	margin-top:30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	display: inline-block;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 100%;
+	padding: 70px 60px;
 }
 .contact-form h4 {
 	text-align: center;

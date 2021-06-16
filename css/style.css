@@ -2013,6 +2013,8 @@ a.wit-btn {
 .contact-details{
 	color: rgb(255, 255, 255);
 	text-align: center;
+	padding-left: 50%;
+	padding-right: 50%
 }
 .contact-form {
 	z-index: 10;

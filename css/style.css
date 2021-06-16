@@ -2003,22 +2003,27 @@ a.wit-btn {
 -----------------------------------------*/
 #contact {
 	position: relative;
+	text-align: center;
 	color: rgb(255, 255, 255);
-	background:url(../images/contact-bg.jpg) no-repeat;
-	background-size:cover;
 	padding:60px 0;
+}
+.container {
+	text-align: center;
 }
 .contact-details{
 	color: rgb(255, 255, 255);
+	text-align: center;
 }
 .contact-form {
 	z-index: 10;
 	position: relative;
+	text-align: center;
+	padding-right: 30;
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 	margin-top:30px;
 }
 .contact-form h4 {
-	text-align: left;
+	text-align: center;
 	color: #fff;
 	font-size: 36px;
 	margin: 0 0 30px 0;
@@ -2080,7 +2085,7 @@ a.wit-btn {
 
 #address {
 	color: #333;
-	text-align: left;
+	text-align: center;
 	margin-top: 10px;
 }
 #address .fa {
